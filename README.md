@@ -14,14 +14,22 @@ A basic calculator application built with Java Swing.
 
 - Java Development Kit (JDK) 8 or higher
 
-## How to Compile
+## How to Compile and Run
 
+### Option 1: Using the run script (Linux/Mac)
+
+```bash
+./run.sh
+```
+
+### Option 2: Manual compilation and execution
+
+Compile:
 ```bash
 javac src/calculator/Calculator.java
 ```
 
-## How to Run
-
+Run:
 ```bash
 java -cp src calculator.Calculator
 ```
